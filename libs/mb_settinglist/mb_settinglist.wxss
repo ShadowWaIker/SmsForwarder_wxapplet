@@ -2,17 +2,18 @@
   background-color: #ffffff;
 }
 .item{
-  padding-left: 32rpx;
   margin-top: 7rpx;
   margin-bottom: 7px;
+  display: flex;
+  align-items: center;
 }
 .image_left{
+  padding-left: 32rpx;
   width: 50rpx; 
   height: 50rpx;
   padding-top: 15rpx;
 }
 .title{   
-  position: absolute;
   color: #000000;
   font-size:30rpx;
   /*font-weight:bold;*/

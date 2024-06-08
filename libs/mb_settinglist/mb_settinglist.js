@@ -31,14 +31,15 @@ Component({
     /*
      * 公有方法
      */
-    添加项目(图片,标题,显示宽线,显示开关,开关状态,标记) {
+    添加项目(图片,标题,显示宽线,显示开关,开关状态,标记,右侧箭头=true) {
       var value = {
         "path": 图片,
         "title":标题,
         "wide":显示宽线,
         "switch":显示开关,
         "check":开关状态,
-        "tag": 标记
+        "tag": 标记,
+        "rightArrow": 右侧箭头
       };
       this.data.items.push(value);
       this.setData({

@@ -4,7 +4,7 @@
 
 	<mb_messagelist id="mb_messagelist1" imageWidth="100rpx" imageHeight="100rpx" borderRadius="50%" border="{{true}}" wrapType="nowrap" show="{{true}}" bindoptionTap="消息列表框1表项被单击" />
 
-	<mb_settinglist id="mb_settinglist1" switchColor="#04BE02" show="{{true}}" bindswitchChange="设置列表框1开关被单击" />
+	<mb_settinglist id="mb_settinglist1" switchColor="#04BE02" show="{{true}}" bindswitchChange="设置列表框1开关被单击" bindoptionTap="optionTap"/>
 
 	<view hidden="{{mb_freePanel[0]}}" style="margin:10px;background-color:#FFFFFF;width:auto;height:442rpx;position:relative;border: 1px solid #E9E9E9;border-radius: 5px;">
 		<mb_text id="mb_text2" style="position:absolute;top:24rpx;left:20rpx;width:182rpx;height:38rpx;line-height:38rpx;text-align:left;font-size:30rpx;overflow:hidden;" mb_style_extra="display:block;width:auto;background-color:#FFFFFF;color:#000000" show="{{false}}" value="网卡MAC" />
